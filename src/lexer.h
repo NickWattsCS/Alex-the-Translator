@@ -8,6 +8,8 @@
 	lexer to speed up production.
 */
 
+#ifndef ALEX_LEXER_H
+#define ALEX_LEXER_H
 
 //C++ Libraries
 #include <fstream>
@@ -42,3 +44,5 @@ class lexer
 };
 
 }
+
+#endif

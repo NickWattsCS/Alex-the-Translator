@@ -5,6 +5,9 @@
 	mistake
 */
 
+#ifndef ALEX_GRAMMAR_H
+#define ALEX_GRAMMAR_H
+
 namespace alex 
 {
 	namespace grammar
@@ -67,3 +70,5 @@ namespace alex
 	}
 
 }
+
+#endif
