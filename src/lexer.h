@@ -30,7 +30,7 @@ class lexer
 {
 	public:
 	//Constructors and Destructors
-		lexer() : token_list{};
+		lexer() : token_list{nullptr};
 		~lexer();
 	
 	//Member functions
