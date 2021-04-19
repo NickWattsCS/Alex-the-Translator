@@ -32,8 +32,8 @@ class lexer
 {
 	public:
 	//Constructors and Destructors
-		lexer() : token_list{nullptr};
-		~lexer();
+		lexer() : token_list(0) {};
+		~lexer() { if(!token_list.empty()) token_list.clear(); };
 	
 	//Member functions
 		void tokenize(const std::vector<std::string>&);

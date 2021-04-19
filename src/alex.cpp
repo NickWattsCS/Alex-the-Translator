@@ -3,11 +3,11 @@
 #include "lexer.h"
 #include "parser.h"
 
-int main(argc, argv)
+int main(int argc, char** argv)
 {
 	std::string word = "";
 	std::vector<std::string> wordbank;
-	alex::lexer lang_lex = lexer();
+	alex::lexer lang_lex;
 
 	/*
 	Placeholder control scheme until I have the energy to program the getopt schema.
@@ -23,7 +23,7 @@ int main(argc, argv)
 			else
 				wordbank.push_back(word);
 		}
-		lang_lex.tokenize(wordbank);
+		//lang_lex.tokenize(wordbank);
 	}
 	else
 	{

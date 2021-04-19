@@ -8,6 +8,8 @@
 #ifndef ALEX_GRAMMAR_H
 #define ALEX_GRAMMAR_H
 
+#include <iostream>
+
 namespace alex 
 {
 	namespace grammar
