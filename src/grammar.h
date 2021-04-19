@@ -12,8 +12,29 @@
 
 namespace alex 
 {
-	namespace grammar
+	class grammar
 	{
+		class node
+		{
+			private:
+				char* subtree;
+				char* word;
+				node** next_subtree;
+
+			public:
+				node(): subtree{nullptr}, word{nullptr}, next_subtree{nullptr} {};
+				~node() {};
+		};
+
+		public:
+			grammar() : root{} {};
+			~grammar() {};
+			bool does_word_exist(const char*) { return false; };
+
+		private:
+			node* root;
+	};
+		/*
 		class Words 
 		{
 			class Semantic_Words
@@ -69,7 +90,8 @@ namespace alex
 		{
 
 		};
-	}
+
+		*/
 
 }
 

@@ -14,6 +14,7 @@ int main(int argc, char** argv)
 	First if block runs for command line testing, second if block runs for filestream
 	testing.
 	*/
+
 	if(strcmp(argv[0], "com") == 0)
 	{
 		while(std::cin >> word)
@@ -27,7 +28,7 @@ int main(int argc, char** argv)
 	}
 	else
 	{
-
+		//This will be code to parse a text file
 	}
 
 	return 0;
