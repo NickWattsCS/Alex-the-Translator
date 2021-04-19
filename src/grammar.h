@@ -49,9 +49,9 @@ namespace alex
 				};
 				class Articles 
 				{
-					const char A = 'a';
-					const char SOME = 'some';
-					const char THE = 'the';
+					const char A = "a";
+					const char SOME = "some";
+					const char THE = "the";
 				};
 				class Contractions 
 				{
