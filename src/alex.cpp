@@ -23,7 +23,7 @@ int main(int argc, char** argv)
 			else
 				wordbank.push_back(word);
 		}
-		//lang_lex.tokenize(wordbank);
+		lang_lex.tokenize(wordbank);
 	}
 	else
 	{

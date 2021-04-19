@@ -36,7 +36,7 @@ class lexer
 		~lexer() { if(!token_list.empty()) token_list.clear(); };
 	
 	//Member functions
-		void tokenize(const std::vector<std::string>&);
+		void tokenize(const std::vector<std::string>&) {};
 
 	private:
 	//Member data
